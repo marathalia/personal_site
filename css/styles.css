@@ -54,17 +54,17 @@ h3 {
     font-family: 'courier', monospace;
     font-size: 80px;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 90px;
     margin-bottom: 25px;
 }
 
 .like-right{
     font-family: 'courier', monospace;
-    text-align: right;
+    text-align: left;
     font-size: 70px;
     margin-top: 300px;
     margin-bottom: 100px;
-    margin-right: 20px;
+    margin-left: 150px;
 }
 
 body {
@@ -105,10 +105,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0px;
 }
 
 .column {
-    width: 33.33%;
+    width:30%;
     padding: 15px;
 }
 
@@ -149,7 +150,7 @@ body {
     text-align: right;
     font-size: 80px;
     color: white;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 25px;
     margin-right: 200px;
 }
@@ -179,7 +180,6 @@ body {
 .like-right-page2{
     font-family: 'courier', monospace;
     text-align: left;
-    /* text-align: right; */
     font-size: 70px;
     margin-top: 240px;
     margin-bottom: 50px;
@@ -191,39 +191,93 @@ body {
     font-family: "Roboto Mono", monospace;
     font-size: 25px;
     color: white;
-    /* text-align: right; */
-    /* list-style-position: inside; */
-    margin-left: 200px;
+    margin-left: 190px;
     margin-right: 200px;
     margin-top: 5px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Not in use */
-/* 
-.rounded-edge {
-    border-radius: 5px;
-}
-
-.pad {
-    padding: 0px 0px 0px 0px;
     margin-bottom: 5px;
 }
 
-.me-stand {
-    float: right;
+.contact-center {
+    font-family: 'courier', monospace;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-top: 180px;
+    margin-bottom: 50px;
 }
 
-.pad {
-    padding: 0px 100px 100px 100px;
+.contact-me {
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    color: black;
+    text-align: center;
 }
- */
 
-/* footer{
-    background-color: lightpink;
-} */
+.link-email {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.link-email:hover{
+    color: gray;
+}
+
+.contact-email-bg {
+    background-color: white;
+    width: 680px;
+    height: 50px;
+    margin: 20px 455px 80px 455px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+/* PHOTO COLLAGE */
+.photo-center {
+    font-family: 'courier', monospace;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container-pics {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.column-photo {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 7px;
+}
+
+.column-photo img {
+    margin-top: 14px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+@media screen and (max-width: 800px) {
+    .column-photo {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .column-photo {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
