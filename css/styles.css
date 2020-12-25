@@ -1,70 +1,45 @@
 /* the coloring uses hex color system */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap');
 
-.center {
-    max-width: 1277px;
-    margin: auto;
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
-.header-text {
-    padding: 280px 100px 400px 300px;
+.nav-bar{
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 0.9375em;
 }
 
-h1 { 
+/* .header-text {
+    margin: 280px 100px 400px 300px;
+} */
+
+.p1 { 
     font-family: "Roboto Mono", monospace;
     color: tomato;
-    font-size: 69px;
+    font-size: 4.31em;
+    margin-top: 280px;
+    margin-right: 100px;
     margin-bottom: 5px;
+    text-align: right;
 }
 
-h3 {
+.p2 {
     font-family: "Roboto Mono", monospace;
     color: white;
-    font-size: 90px;
+    font-size: 5.625em;
     margin-top: 3px;
+    margin-right: 100px;
     text-align: right;
-}
-
-.text-center {
-    text-align: right;
-}
-
-.text-above-pic {
-    font-family: "Roboto Mono", monospace;
-    font-size: 25px;
-    text-align: center;
-}
-
-.text-below-pic {
-    font-family: "Roboto Mono", monospace;
-    font-size: 17px;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.text-below-pic-small {
-    font-family: "Roboto Mono", monospace;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 2px;
-}
-
-.edu-right {
-    font-family: 'courier', monospace;
-    font-size: 80px;
-    text-align: right;
-    margin-right: 90px;
-    margin-bottom: 25px;
-}
-
-.like-right{
-    font-family: 'courier', monospace;
-    text-align: left;
-    font-size: 70px;
-    margin-top: 300px;
-    margin-bottom: 100px;
-    margin-left: 150px;
+    margin-bottom: 400px;
 }
 
 body {
@@ -74,10 +49,73 @@ body {
     margin: 40px;
 }
 
+.edu-right {
+    font-family: 'courier', monospace;
+    font-size: 5em;
+    text-align: right;
+    margin-right: 90px;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+
+.column {
+    width: 30%;
+    padding: 15px;
+}
+
+.column:hover{
+    transform: scale(1.04);
+}
+
+.text-above-pic {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.text-below-pic {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.0625em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.text-below-pic-small {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.9375em;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.like-right{
+    font-family: 'courier', monospace;
+    text-align: left;
+    font-size: 4.375em;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+.column2 {
+    float: left;
+	width: 33.33%;
+    padding: 15px;
+}
+
+.column2:hover{
+    transform: scale(1.06);
+}
+
 .link {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .link:hover{
@@ -100,55 +138,11 @@ body {
     padding: 30px 50px 30px 30px;
 }
 
-/* Flex Box */
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px;
-}
-
-.column {
-    width:30%;
-    padding: 15px;
-}
-
-.column2 {
-    float: left;
-	width: 33.33%;
-    padding: 15px;
-}
-
-.column:hover{
-    transform: scale(1.04);
-}
-
-.column2:hover{
-    transform: scale(1.06);
-}
-
 /* PAGE 2 */
-
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-.nav-bar{
-    font-family: "Roboto Mono", monospace;
-    text-decoration: none;
-    padding: 15px;
-    color: white;
-    font-size: 15px;
-}
-
 .more-right {
     font-family: 'courier', monospace;
     text-align: right;
-    font-size: 80px;
+    font-size: 5em;
     color: white;
     margin-top: 70px;
     margin-bottom: 25px;
@@ -160,11 +154,12 @@ body {
     margin-top: 20px;
     margin-right: 200px;
     padding-top: 0px;
+    width: 200px;
 }
 
 .info-more-about-me {
     font-family: "Roboto Mono", monospace;
-    font-size: 23px;
+    font-size: 1.4375em;
     margin-left: 250px;
     margin-bottom: 0px;
     margin-right: 220px;
@@ -180,7 +175,7 @@ body {
 .like-right-page2{
     font-family: 'courier', monospace;
     text-align: left;
-    font-size: 70px;
+    font-size: 4.375em;
     margin-top: 240px;
     margin-bottom: 50px;
     margin-right: 20px;
@@ -189,7 +184,7 @@ body {
 
 .list {
     font-family: "Roboto Mono", monospace;
-    font-size: 25px;
+    font-size: 1.5625em;
     color: white;
     margin-left: 190px;
     margin-right: 200px;
@@ -197,10 +192,12 @@ body {
     margin-bottom: 5px;
 }
 
+
+/* CONTACT ME PAGE */
 .contact-center {
     font-family: 'courier', monospace;
     text-align: center;
-    font-size: 80px;
+    font-size: 5em;
     color: white;
     margin-top: 180px;
     margin-bottom: 50px;
@@ -208,7 +205,7 @@ body {
 
 .contact-me {
     font-family: "Roboto Mono", monospace;
-    font-size: 25px;
+    font-size: 1.5625em;
     color: black;
     text-align: center;
 }
@@ -232,18 +229,11 @@ body {
 }
 
 
-
-
-
-
-
-
-
 /* PHOTO COLLAGE */
 .photo-center {
     font-family: 'courier', monospace;
     text-align: center;
-    font-size: 80px;
+    font-size: 5em;
     color: white;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -266,12 +256,255 @@ body {
     margin-top: 14px;
     vertical-align: middle;
     width: 100%;
-  }
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025px) {
+    .nav-bar{
+        font-family: "Roboto Mono", monospace;
+        text-decoration: none;
+        padding: 15px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .container2 {
+        justify-content: flex-end;
+    }
+
+    .p1 { 
+        font-family: "Roboto Mono", monospace;
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: right;
+    }
+    
+    .p2 {
+        font-family: "Roboto Mono", monospace;
+        font-size: 30px;
+        margin-top: 3px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    body {
+        background-color: black;
+        color: #eae2d9;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+
+    .edu-right { 
+        font-family: 'courier', monospace;
+        font-size: 35px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
+
+    .text-above-pic {
+        font-family: "Roboto Mono", monospace;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .text-above-pic-most-top {
+        margin-top: 10px;
+    }
+
+    .text-below-pic {
+        font-family: "Roboto Mono", monospace;
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .text-below-pic-small {
+        font-family: "Roboto Mono", monospace;
+        font-size: 8px;
+        text-align: center;
+        margin-top: 2px;
+    }
+
+    .like-right{
+        font-family: 'courier', monospace;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 180px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .column {
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        padding: 0px;
+    }
+
+    .column2 {
+        float: center;
+        align-items: center;
+        width: 80%;
+        padding: 30px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        background-color: rgb(255, 109, 83);
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 120px;
+    }
+
+    .foot-center {
+        font-family: "Roboto Mono", monospace;
+        margin: 5px 0px 0px 0px;
+        text-align: left;
+        font-size: 12px;
+        color: rgb(255, 245, 245);
+        padding: 30px 30px 30px 30px;
+    }
+    
+    /* PAGE 2 */
+    .more-right {
+        font-family: 'courier', monospace;
+        text-align: right;
+        font-size: 35px;
+        color: white;
+        margin-top: 90px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .pic-right {
+        float: right;
+        text-align: right;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 20px;
+        padding-top: 0px;
+        width: 100px;
+    }
+    
+    .info-more-about-me {
+        font-family: "Roboto Mono", monospace;
+        font-size: 10px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        background-color: white;
+        color: grey;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    .margin-top {
+        margin-top: 40px;
+    }
+
+    .like-right-page2{
+        font-family: 'courier', monospace;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 140px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .list {
+        font-family: "Roboto Mono", monospace;
+        font-size: 18px;
+        color: white;
+        margin-left: 5px;
+        margin-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    /* CONTACT ME PAGE */
+    .contact-center {
+        font-family: 'courier', monospace;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-top: 250px;
+        margin-bottom: 25px;
+    }
+    
+    .contact-me {
+        font-family: "Roboto Mono", monospace;
+        font-size: 13px;
+        color: black;
+        text-align: center;
+    }
+    
+    .link-email {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .link-email:hover{
+        color: gray;
+    }
+    
+    .contact-email-bg {
+        text-align: center;
+        background-color: white;
+        width: 300px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .foot-contact-page {
+        position: fixed;
+        background-color: rgb(255, 109, 83);
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .photo-center {
+        font-family: 'courier', monospace;
+        text-align: center;
+        font-size: 22px;
+        color: white;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
     .column-photo {
-      flex: 50%;
-      max-width: 50%;
+        flex: 70%;
+        max-width: 70%;
+    }
+
+    .column-photo img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .column-photo {
+      flex: 70%;
+      max-width: 70%;
     }
 }
   
@@ -279,5 +512,6 @@ body {
     .column-photo {
       flex: 100%;
       max-width: 100%;
-    }
-}
+    } */
+/* } */
+
